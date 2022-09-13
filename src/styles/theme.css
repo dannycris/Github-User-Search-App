@@ -1,0 +1,13 @@
+:root {
+	--color-blue: #07f;
+	--color-white: #fff;
+	--color-red: #f64646;
+	--color-grayish-blue: #697c9b;
+	--color-desautareted-blue: #4b699b;
+	--color-dark-blue: #2a3341;
+	--color-saturated-white: #f5f7ff;
+	--color-very-dark-blue: #141d2e;
+	--color-dark-desaturated-blue: #1e2b48;
+	--color-hover-blue: #61abff;
+	--shadow-box: 0px 16px 30px -10px rgba(70, 96, 187, 0.1986);
+}

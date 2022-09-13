@@ -1,0 +1,58 @@
+.form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: calc(100% - 1rem);
+	gap: 1.5rem;
+	margin-bottom: 1.5rem;
+	position: relative;
+	border-radius: 15px;
+	padding: 0.5rem;
+	transition: all ease-in-out 0.5s;
+}
+
+.form.light {
+	background-color: var(--color-white);
+	color: black;
+	box-shadow: var(--shadow-box);
+}
+
+.form.dark {
+	background-color: var(--color-dark-desaturated-blue);
+	color: white;
+}
+
+.form.dark input {
+	color: white;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	color: var(--color-blue);
+	position: absolute;
+	left: 0.8rem;
+}
+
+.input {
+	border-radius: 15px;
+	padding: 0.8rem;
+	padding-left: 2.5rem;
+	background-color: transparent;
+	border: 1px solid transparent;
+	outline: none;
+	width: 60%;
+}
+
+.button {
+	padding: 0.7rem 1.3rem;
+	border: 1px solid transparent;
+	border-radius: 15px;
+	color: white;
+	background-color: var(--color-blue);
+	cursor: pointer;
+}
+
+.hover {
+	background-color: var(--color-hover-blue);
+}

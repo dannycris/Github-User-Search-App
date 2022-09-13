@@ -1,0 +1,19 @@
+.cursor {
+	z-index: 1000;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid;
+	pointer-events: none;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+	position: fixed;
+}
+
+.cursor.dark {
+	border-color: white;
+}
+
+.cursor.light {
+	border-color: black;
+}
